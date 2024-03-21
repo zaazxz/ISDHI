@@ -28,7 +28,10 @@
         <div class="block h-fit mt-[-20px] bg-white rounded-t-lg p-5">
             <form action="">
 
-                <input type="text" class="border border-black w-full mb-5">
+                <div class="input-group border border-gray-300 flex flex-col rounded">
+                    <label for="username" class="mb-[-23px] pt-4 pb-4 pl-2 text-gray-500 transition-all" id="label-username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Masukkan username" class="opacity-0 m-1 pl-1 focus:opacity-100 focus:outline-none focus:pb-1 focus:mb-[6px] transition">
+                </div>
 
             </form>
         </div>

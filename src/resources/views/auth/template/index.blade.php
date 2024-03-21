@@ -8,6 +8,9 @@
     {{-- Tailwind CSS --}}
     @vite('resources/css/app.css')
 
+    {{-- Native CSS --}}
+    @vite('public/css/style.css')
+
     <title>Masuk</title>
 
 </head>
