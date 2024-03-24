@@ -25,6 +25,10 @@
     <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
 
+    {{-- Jquery and Native JS --}}
+    <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
+
 </body>
 
 </html>
